@@ -32,21 +32,6 @@ The model captures sequential dependencies in text, making it effective for unde
 
 ---
 
-## 🏗️ Project Workflow
-
-```mermaid
-graph TD
-A[Raw Text Review] --> B[Text Cleaning]
-B --> C[Tokenization]
-C --> D[Padding Sequences]
-D --> E[Embedding Layer]
-E --> F[Simple RNN]
-F --> G[Dense Layer]
-G --> H[Sentiment Output (Positive/Negative)]
-```
-
----
-
 ## 🛠️ Tech Stack
 
 * Python
